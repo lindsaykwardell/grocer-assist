@@ -40,6 +40,7 @@
     "dist": "electron-builder",
     "pack-win": "electron-builder --dir --win",
     "dist-win": "electron-builder --win",
+    "dist-all": "electron-builder -mwl",
     "build:css": "postcss index.css -o public/global.css",
     "watch:css": "postcss index.css -o public/global.css -w"
   },
